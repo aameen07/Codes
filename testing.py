@@ -1,0 +1,8 @@
+n=list(map(int, input().split()))
+m=sorted(n)
+k=sorted(n,reverse=True)
+print(k)
+print(m)
+l1=str(k)
+l2=str(m)
+print(l1)
